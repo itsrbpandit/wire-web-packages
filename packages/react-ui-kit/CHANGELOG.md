@@ -3,6 +3,98 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [10.0.0](https://github.com/wireapp/wire-web-packages/compare/@wireapp/react-ui-kit@8.14.6...@wireapp/react-ui-kit@10.0.0) (2023-06-03)
+
+### Bug Fixes
+
+* address missing forward ref ([#4638](https://github.com/wireapp/wire-web-packages/issues/4638)) ([7991df9](https://github.com/wireapp/wire-web-packages/commit/7991df97e8654b2d9de697c02d6487112d292bde))
+* Address type mismatch for fowarded ref components ([#4637](https://github.com/wireapp/wire-web-packages/issues/4637)) ([fd0988c](https://github.com/wireapp/wire-web-packages/commit/fd0988cba5b69cb6a0a11ed31042865c1835cf6e))
+* build with tsc ([#4565](https://github.com/wireapp/wire-web-packages/issues/4565)) ([ef7ae0a](https://github.com/wireapp/wire-web-packages/commit/ef7ae0a8664b7111ee32089496f9efc12def4df8))
+* change default font weight from 300 to 400 [ACC-436] ([#4813](https://github.com/wireapp/wire-web-packages/issues/4813)) ([c5e847a](https://github.com/wireapp/wire-web-packages/commit/c5e847a63c20fde64ec1f019aa747faa996ebc12))
+* font weight on windows pcs (FS-1081) ([#4560](https://github.com/wireapp/wire-web-packages/issues/4560)) ([710df83](https://github.com/wireapp/wire-web-packages/commit/710df8371966081cbea09a2800fa7db68bb7c4ba))
+* improve useTimeout hook with ref ([#4697](https://github.com/wireapp/wire-web-packages/issues/4697)) ([0784341](https://github.com/wireapp/wire-web-packages/commit/07843417b3c0a3fe4fbd8dea91384124df44f774))
+* **react-ui-kit:** Address issue with non-standard props passed to DOM elements ([#4421](https://github.com/wireapp/wire-web-packages/issues/4421)) ([93d9c12](https://github.com/wireapp/wire-web-packages/commit/93d9c121b842fa039706d7cc29733b66aa117fc8))
+* **react-ui-kit:** Use proper  id for input and checkbox ([#4631](https://github.com/wireapp/wire-web-packages/issues/4631)) ([2eb7e20](https://github.com/wireapp/wire-web-packages/commit/2eb7e20b0d83dbe72b98cde884d03cec1f1c9c91))
+* styleguidist rendering ([#4618](https://github.com/wireapp/wire-web-packages/issues/4618)) ([01be991](https://github.com/wireapp/wire-web-packages/commit/01be99170008d2d93a0f997b137cb8cbee4d9192))
+* **ui-kit:** move @types/color to dependencies ([#4413](https://github.com/wireapp/wire-web-packages/issues/4413)) ([8ba51ac](https://github.com/wireapp/wire-web-packages/commit/8ba51ac7989ea9cc9565456015d79e41caee5a85))
+* **ui-kit:** Proper use of forwardRef ([#4412](https://github.com/wireapp/wire-web-packages/issues/4412)) ([8487e62](https://github.com/wireapp/wire-web-packages/commit/8487e62959f9b98b1c0afec87c2f96e075386841))
+* update @wireapp/protocol-messaging & @types/node ([#4562](https://github.com/wireapp/wire-web-packages/issues/4562)) ([a19451e](https://github.com/wireapp/wire-web-packages/commit/a19451ec6669506c601627fd3b978bca00addf1e))
+
+### Code Refactoring
+
+* produce output of packages in lib folders ([#4561](https://github.com/wireapp/wire-web-packages/issues/4561)) ([2b7ea4c](https://github.com/wireapp/wire-web-packages/commit/2b7ea4c13f244bad5fe3cbcb80f82b5de6741db7))
+
+### Features
+
+* add enum for TabIndex ([#4708](https://github.com/wireapp/wire-web-packages/issues/4708)) ([59ebbbd](https://github.com/wireapp/wire-web-packages/commit/59ebbbd34c6dc19785ea8ad49512f567f2db230b))
+* add prop to checkbox component to change label position ([#4423](https://github.com/wireapp/wire-web-packages/issues/4423)) ([760f4e4](https://github.com/wireapp/wire-web-packages/commit/760f4e4866968be57f654e093543fd4f54e8a7bf))
+* add prop to checkbox component to remove focus outline offset ([#4424](https://github.com/wireapp/wire-web-packages/issues/4424)) ([66e8f8c](https://github.com/wireapp/wire-web-packages/commit/66e8f8c9e5fa5268fa929ac37ce482b75432bc7c))
+* add verification shield icon ([#5034](https://github.com/wireapp/wire-web-packages/issues/5034)) ([699a822](https://github.com/wireapp/wire-web-packages/commit/699a8225c502d114ed30f94ed1ad246d150edf5f))
+* improve typing for color packages ([#4930](https://github.com/wireapp/wire-web-packages/issues/4930)) ([4910695](https://github.com/wireapp/wire-web-packages/commit/491069528d53247384f6d6cdd2bb58aa5f921e3a))
+* **react-ui-kit:** Implement new tooltip ([#5012](https://github.com/wireapp/wire-web-packages/issues/5012)) ([ea4842e](https://github.com/wireapp/wire-web-packages/commit/ea4842ee14c7cda9a18a3a55691dfed749a407f1))
+* **react-ui-kit:** Indicator range input voiceover ([#4645](https://github.com/wireapp/wire-web-packages/issues/4645)) ([969f9d7](https://github.com/wireapp/wire-web-packages/commit/969f9d747fecc550930233e861dc2ccbedacef24))
+* **react-ui-kit:** Prepare Indicator Range Input ([#4630](https://github.com/wireapp/wire-web-packages/issues/4630)) ([0aa1e6b](https://github.com/wireapp/wire-web-packages/commit/0aa1e6b407ba904a2a46e96251386e9286cc94b6)), closes [#4641](https://github.com/wireapp/wire-web-packages/issues/4641)
+* update emotion ([#4419](https://github.com/wireapp/wire-web-packages/issues/4419)) ([7b76bd6](https://github.com/wireapp/wire-web-packages/commit/7b76bd6e34a0807a96d62bbcad70644d5b175e60))
+* update typescript ([#5115](https://github.com/wireapp/wire-web-packages/issues/5115)) ([f1f39de](https://github.com/wireapp/wire-web-packages/commit/f1f39dee4d5985980b187dc00199beeb1e849f55))
+
+### BREAKING CHANGES
+
+* Imports that point to @wireapp/packageName/src/** need to be changed to @wireapp/packageName/lib/**
+
+* feat: changed api-client, bazinga64, certificate-check, cli-client
+
+* feat: cleanup commons
+
+* feat: change copy-config
+
+* feat: change core
+
+* feat: update license-collector
+
+* fix: update @wireapp/protocol-messaging, long and @types/node no longer needed
+
+* fix: update @wireapp/protocol-messaging, long and @types/node no longer needed
+
+* fix: node modules and yarn.lock
+
+* fix: add @types/node again to get rid of yarn resolution warnings
+
+* fix: add @types/node again to get rid of yarn resolution warnings
+
+* chore: update lockfile
+
+* fix: core tests
+
+* feat: update priority-queue
+
+* feat: update promise-queue
+
+* feat: update react-ui-kit
+
+* fix: add long back into core
+
+* feat: update store-engine
+
+* feat: update store-engine-dexie
+
+* feat: update store-engine-fs
+
+* feat: update webapp-events
+
+* fix: eslint
+
+* chore: cleanup last bits. everything changed to /lib/
+
+* fix: add typescript to our packages for users that dont have ts available globally (tsc not found)
+
+* fix: read old gitignore rules for now to avoid problems (unexpected commits) for existing local environments
+
+* chore: remove not needed gitignore entries
+
+* fix: formatting for package.json
+
+* chore: let tests execute in parallel
+
 ## [9.7.2](https://github.com/wireapp/wire-web-packages/compare/@wireapp/react-ui-kit@9.7.1...@wireapp/react-ui-kit@9.7.2) (2023-05-29)
 
 **Note:** Version bump only for package @wireapp/react-ui-kit

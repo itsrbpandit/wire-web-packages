@@ -3,6 +3,78 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.0.0](https://github.com/wireapp/wire-web-packages/compare/@wireapp/copy-config@1.3.6...@wireapp/copy-config@3.0.0) (2023-06-03)
+
+### Bug Fixes
+
+* Revert axios to version 1.1.2 ([#4557](https://github.com/wireapp/wire-web-packages/issues/4557)) ([ac7f792](https://github.com/wireapp/wire-web-packages/commit/ac7f792869c1fbda1a75cbc33be45f0f353ac9c2))
+
+### Code Refactoring
+
+* produce output of packages in lib folders ([#4561](https://github.com/wireapp/wire-web-packages/issues/4561)) ([2b7ea4c](https://github.com/wireapp/wire-web-packages/commit/2b7ea4c13f244bad5fe3cbcb80f82b5de6741db7))
+
+### Features
+
+* update typescript ([#5115](https://github.com/wireapp/wire-web-packages/issues/5115)) ([f1f39de](https://github.com/wireapp/wire-web-packages/commit/f1f39dee4d5985980b187dc00199beeb1e849f55))
+
+### BREAKING CHANGES
+
+* Imports that point to @wireapp/packageName/src/** need to be changed to @wireapp/packageName/lib/**
+
+* feat: changed api-client, bazinga64, certificate-check, cli-client
+
+* feat: cleanup commons
+
+* feat: change copy-config
+
+* feat: change core
+
+* feat: update license-collector
+
+* fix: update @wireapp/protocol-messaging, long and @types/node no longer needed
+
+* fix: update @wireapp/protocol-messaging, long and @types/node no longer needed
+
+* fix: node modules and yarn.lock
+
+* fix: add @types/node again to get rid of yarn resolution warnings
+
+* fix: add @types/node again to get rid of yarn resolution warnings
+
+* chore: update lockfile
+
+* fix: core tests
+
+* feat: update priority-queue
+
+* feat: update promise-queue
+
+* feat: update react-ui-kit
+
+* fix: add long back into core
+
+* feat: update store-engine
+
+* feat: update store-engine-dexie
+
+* feat: update store-engine-fs
+
+* feat: update webapp-events
+
+* fix: eslint
+
+* chore: cleanup last bits. everything changed to /lib/
+
+* fix: add typescript to our packages for users that dont have ts available globally (tsc not found)
+
+* fix: read old gitignore rules for now to avoid problems (unexpected commits) for existing local environments
+
+* chore: remove not needed gitignore entries
+
+* fix: formatting for package.json
+
+* chore: let tests execute in parallel
+
 # [2.1.0](https://github.com/wireapp/wire-web-packages/compare/@wireapp/copy-config@2.0.13...@wireapp/copy-config@2.1.0) (2023-05-04)
 
 ### Features
